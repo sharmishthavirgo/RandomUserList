@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  min-height: 60px;
+  margin-top: 10vh;
+}
+
+.user-header {
+  background-color: #222;
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+
+.back-link {
+  display: flex;
+  cursor: pointer;
+}
+
+.user_name {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.user_photo {
+  width: 150px;
+  border-radius: 50%;
+  border: 0;
+}
